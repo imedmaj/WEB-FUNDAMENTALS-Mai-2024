@@ -1,0 +1,29 @@
+.nav{
+    width: auto;
+    margin: 10;
+    padding: 20px;
+    background-color: black;
+    color: white;
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;text
+  }
+  .nav-links{
+width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .btn{
+    background-color: blue;
+    color: white;
+   font-size: 20px;
+  }

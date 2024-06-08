@@ -1,0 +1,50 @@
+.container {
+    margin: 100px;
+    width: auto;
+    height: 1000px;    
+    padding:100;    
+    border: 10px solid#cccccc
+}
+
+.top {
+    background-color: #3ca0b7;
+    width: auto;
+    height: 200px;
+}
+
+.user {
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    border: 10px solid#cccccc;
+    border-radius: 120px;
+}
+.name{
+    font-size: 100px;
+    font-weight: bold inherit;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+.ligne1{
+    
+    display:flex ;
+    display: flex;
+    align-items: center;
+    
+}
+.cont2{
+    font-weight: bold inherit;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+}
+p{
+    font-size: 50px;
+
+}
+.img2{
+    height: 50px;
+
+}

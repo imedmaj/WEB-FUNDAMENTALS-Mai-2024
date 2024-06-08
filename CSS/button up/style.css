@@ -1,0 +1,35 @@
+h1{
+    background-color: aqua;
+}
+.first{
+    margin-top: 50px;
+    border-radius: 30px;
+    border-color: aqua;
+ box-shadow: inset ;
+   height: 30px;
+   width: 150px;
+   background-color:rgb(238, 245, 243) ;
+    color: rgb(92, 217, 217);
+}
+.second{
+    margin-top: 50px;
+    border-radius: 30px;
+    border-color: rgb(230, 248, 242);
+    box-shadow: none;
+    
+   height: 40px;
+   width: 40px;
+   background-color:rgb(141, 238, 205) ;
+    color: white;
+}
+.third{
+    margin-top: 50px;
+    border-radius: 0%;
+    border-color:black;
+    box-shadow: 5px 5px 5px black; 
+   height: 30px;
+   width: 160px;
+   background-color:blue ;
+    color: white;
+
+}

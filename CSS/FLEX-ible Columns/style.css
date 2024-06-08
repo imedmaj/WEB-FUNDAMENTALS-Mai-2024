@@ -1,0 +1,87 @@
+.part-1 {
+    width: auto;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.row {
+    width: auto;
+    height: 400px;
+    margin: 10;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.col {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-color: azure;
+    border-style: dashed solid;
+    flex: 1;
+
+}
+.col-1 {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-color: azure;
+    border-style: dashed solid;
+    flex: 1;
+}
+.col-2 {
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-color: azure;
+    border-style: dashed solid;
+    flex: 2;
+}
+.col-3 {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-color: azure;
+    border-style: dashed solid;
+    flex: 2;
+
+}
+.col-4 {
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-color: azure;
+    border-style: dashed solid;
+    flex: 3;
+
+}
