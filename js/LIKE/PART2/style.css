@@ -1,0 +1,76 @@
+
+body{
+    width:900px;
+
+}
+.net{
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    
+}
+.feed{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+   
+    justify-content: space-between;
+}
+img{
+    width: 200px;
+}
+.avatar{
+    height: 300px;
+    margin-top: 20px;
+    display: block;
+    border: 5px solid ;
+    border-color: black; 
+    
+}
+.sub2{
+    margin-left: 20px;   
+    display: block;   
+}
+
+button{
+    background-color: yellow;
+    color: black;
+    width: 80px;
+    height: 40px;
+    border: 5px solid ;    
+    border-color: black; 
+    box-shadow: 5px 5px 5px black; 
+    font-size: 25px; 
+}
+
+
+.box{
+    width: 600px;
+    height: 150px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+    border: 5px solid ;
+    border-color: black;   
+}
+
+.likes{    
+        
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub1 {
+    width: 200px;
+   display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+}

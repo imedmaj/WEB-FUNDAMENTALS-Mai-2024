@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h1>Dojonary</h1>
+        <input class="input" type="text" name="search" placeholder="search">
+        <button class="but1" onclick="change(this)" id="log">login</button>
+    </header>
+    <!-- conatiner -->
+    <div class="conatiner">
+        <!-- users -->
+        <div class="users">
+            <!-- user1 -->
+            <div class="box">
+                <!-- name+button -->
+                <div class="name">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h2>Plural: ninjas</h2>
+                    <button onclick="example(this)"><span id="lik-val0">13</span>Likes</button>
+                </div>
+                <!-- discription -->
+                <div class="dis">
+                    <p>A practitioner skilled in the <span><a href="japanese">japanese</a>japanese</span>art of <a
+                            href="ninjutsu">ninjutsu</a></p>
+
+                </div>
+            </div>
+            <!-- user 2 -->
+            <div class="users">
+                <!-- user1 -->
+                <div class="box">
+                    <!-- name+button -->
+                    <div class="name">
+                        <h1>ninja</h1>
+                        <h2>noun</h2>
+                        <h2>Plural: ninjas</h2>
+                        <button onclick="example1(this)"><span id="lik-val1">37</span>Likes</button>
+                    </div>
+                    <!-- discription -->
+                    <div class="dis">
+                        <p>A <span><a href="programmer">programmer</a>japanese</span> who breaks down problems with <a
+                                href="zen">zen</a>-lik focus</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            <!-- end users -->
+            <!-- defination -->
+            <div class="def">
+                <h1>dojonary is defined by You</h1>
+                <button class="but2" onclick="change2(this)" >Add defination</button>
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>

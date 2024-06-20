@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    width: auto;
+    margin: 10;
+    padding: 20px;
+    background-color: #9FC5F8;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont {
+    width: auto;
+    margin-left: 300px;
+    margin-right: 350px;
+    padding: 10px;
+}
+
+.nav2 {
+
+    border-bottom: 5px solid black;
+
+    color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.temp {
+    height: 40px;
+    font-size: 20px;
+    width: 50px;
+    border: 3px solid black;
+
+
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.nav-links {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* alert css/ */
+.alert {
+    width: 1200px;
+    height: 150px;
+    /* padding: 20px;
+    margin-left: 300px; */
+    background-color: #EEEEEE;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 130px;
+}
+.alert img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.mess {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    width: 500px;
+}
+
+.f1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+button{
+    background-color: #9FC5F9;
+    color: black;
+    width: 160px;
+    height: 50px;
+    border: 5px solid ;    
+    border-color: black; 
+    box-shadow: 5px 5px 5px black; 
+    font-size: 25px; 
+}
+.imgg{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+   
+}
+.weath{
+    
+    width: 150px;
+    height: 290px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    padding: 20px;
+    display: flow-root;
+}
+.statt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  .to{
+    
+    width:50px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  .to2{
+   
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+  .red{
+    color: #DB7976;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .bleu{
+    color: #2A78E4;
+    font-size: 30px;
+    font-weight: bold;
+  }

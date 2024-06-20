@@ -1,0 +1,127 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DojoWeather</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+
+    <div class="nav">
+      <div>
+        <p>DojoWeather</p>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li onclick="aler('Burbank')">Burbank</li>
+          <li onclick="aler('Chicago')">Chicago</li>
+          <li onclick="aler('Dallas')">Dallas</li>
+        </ul>
+      </div>
+    </div>
+    <!-- end header -->
+    <!-- temp selector -->
+    <div class="cont">
+      <div class="nav2">
+        <h1>San Jose</h1>
+        <div>
+          <label > Show Temperatur in: </label>
+          <select  class="temp" name="temp" onchange="stat()"  id="log">
+            <option value="1">°C</option>
+            <option value="2">°F</option>
+          </select>
+        </div>
+      </div>
+    
+    <!-- end  temp selector -->
+
+    <!-- weather stat -->
+    <div class="statt">
+        <!-- today -->
+      <div class="weath">
+        <div >
+          <div class="to">
+            <h1>Today</h1>
+          </div>
+
+          <img class="imgg" src="assets/some_rain.png" alt="nl" />
+          <h2 class="to2">same rain</h2>
+          <div class="statt">
+            <h3 class="red" id="temp1" >24°</h3>
+            <h3 class="bleu" id="temp2">18°</h3>
+          </div>
+        </div>
+      </div>
+      <!-- end today -->
+        <!-- tomorrow -->
+      <div class="weath">
+        <div >
+          <div class="to">
+            <h1>tomorrow</h1>
+          </div>
+
+          <img class="imgg" src="assets/some_sun.png" alt="nl" />
+          <h2 class="to2">same sun</h2>
+          <div class="statt">
+            <h3 class="red" id="temp3" >27°</h3>
+            <h3 class="bleu" id="temp4">19°</h3>
+          </div>
+        </div>
+      </div>
+      <!-- end tomorrow -->
+         <!-- Friday -->
+      <div class="weath">
+        <div >
+          <div class="to">
+            <h1>Friday</h1>
+          </div>
+
+          <img class="imgg" src="assets/some_clouds.png" alt="nl" />
+          <h2 class="to2">same clouds</h2>
+          <div class="statt">
+            <h3 class="red" id="temp5" >21°</h3>
+            <h3 class="bleu" id="temp6">16°</h3>
+          </div>
+        </div>
+      </div>
+      <!-- end Friday -->
+          <!-- saturday -->
+      <div class="weath">
+        <div >
+          <div class="to">
+            <h1>saturday</h1>
+          </div>
+
+          <img class="imgg" src="assets/some_clouds.png" alt="nl" />
+          <h2 class="to2">same sun</h2>
+          <div class="statt">
+            <h3 class="red" id="temp7">26°</h3>
+            <h3 class="bleu" id="temp8">21°</h3>
+          </div>
+        </div>
+      </div>
+      <!-- end saturday -->
+
+      
+    </div>
+
+    <!-- alert box -->
+    <div class="alert" id="demo">
+      <div class="mess">
+        <img src="assets/cookie.png" alt="" />
+        <p id="demo">
+          <span class="f1">Stop Cookie Time</span> we use cookies(sadly not the
+          edible ones) to peronalize content and ads,to provide social media
+          features and to analyse our traffic.
+          <span><a href="link">read more...</a></span>
+        </p>
+      </div>
+      <button onclick="myFunction()">I Accept</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
